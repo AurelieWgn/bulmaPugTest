@@ -1,0 +1,15 @@
+nav.navbar
+    a.navbar-burger(data-target="myMenu")
+        span 
+        span
+        span
+    .navbar-menu#myMenu
+        .navbar-start 
+            for item in navbars
+                +menuItem(item.href, item.content)   
+        .navbar-end 
+            .navbar-item
+                .buttons 
+                    a.button.is-light S'enregister       
+                    a.button.is-primary  Se connecter   
+                       

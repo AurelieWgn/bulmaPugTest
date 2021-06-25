@@ -1,0 +1,32 @@
+mixin cover(item, type)
+    - var isPlaineWidth = type === "lame"
+    if isPlaineWidth
+        .box.isFlex
+            .columns
+                .column.is-two-fifths
+                    figure.image
+                        img(src=item.mea)
+                .column
+                    div 
+                        span.tag.is-danger.mb-5= item.tag 
+                        h3.title.is-3.mb-5= item.title
+                        p.subtitle.is-3.has-text-primary= item.price
+                        p.is-small= item.mention
+            .columns
+                .column
+                    a(href=item.cta.href)(class="button is-primary")= item.cta.txt     
+    else
+        .box.fullHeight
+            .columns
+                .column.is-two-fifths.is-hidden-touch
+                    figure.image
+                        img(src=item.mea)
+                .column
+                    div 
+                        span.tag.is-danger.mb-5= item.tag 
+                        h3.title.is-3.mb-5.is-size-5= item.title
+                        p.subtitle.is-3.has-text-primary= item.price
+                        p.is-small.is-size-7= item.mention
+            .columns
+                .column
+                    a(href=item.cta.href)(class="button is-primary")= item.cta.txt  

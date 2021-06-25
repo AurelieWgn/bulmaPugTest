@@ -1,0 +1,69 @@
+{
+    "title": "Bienvenue sur le test Bulma / Pug",
+    "description": "Test technique visant à comprendre la logique d'utilisation d'un framework CSS",
+    "navbars": [
+        {
+            "content": "Accueil",
+            "title": "Lien vers l'accueil",
+            "href": "/accueil"
+        },
+        {
+            "content": "Portfolio",
+            "title": "Lien vers mon super portfolio",
+            "href": "/portfolio"
+        },
+        {
+            "content": "Contact",
+            "title": "Lien la page contact",
+            "href": "/contact"
+        }
+    ],
+    "socials": [
+        {
+            "title": "Instagram",
+            "text": "Core rouge sur mon profil"
+        },
+        {
+            "title": "Telegram",
+            "text": "Je rigole je suis pas vieux à ce point, bien que télégram ne soit pas forcément déstiné uniquement aux personnes agées"
+        },
+        {
+            "title": "Twitter",
+            "text": "J'y vais rarement mais why not"
+        }
+    ],
+    "products": [
+        {
+            "mea": "https://picsum.photos/300/200",
+            "tag": "nouveauté",
+            "title": "Nouvel iTelephone 13",
+            "price": "199€99",
+            "mention": "*uniquement pour les clients n'ayant jamais eu de téléphone de leur vie",
+            "cta": {
+                "href": "#",
+                "txt": "J'en profite"
+            }
+        },
+        {
+            "mea": "https://picsum.photos/100/50",
+            "tag": "nouveauté",
+            "title": "Opami G-Trouve 4",
+            "price": "99€99",
+            "cta": {
+                "href": "#",
+                "txt": "J'en profite"
+            }
+        },
+        {
+            "mea": "https://picsum.photos/100/50",
+            "tag": "nouveauté",
+            "title": "Forfait Waouh",
+            "price": "19€",
+            "mention": "/mois, toute votre vie, et même au dela",
+            "cta": {
+                "href": "#",
+                "txt": "J'en profite"
+            }
+        }
+    ]
+}
